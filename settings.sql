@@ -1,0 +1,3 @@
+CREATE DATABASE money;
+CREATE USER moneyuser WITH PASSWORD 'money';
+GRANT ALL PRIVILEGES ON DATABASE money TO moneyuser;
